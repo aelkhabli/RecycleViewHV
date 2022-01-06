@@ -35,27 +35,22 @@ class MainActivityViewModel: ViewModel() {
         val item2 = Item()
         item2.itemApiId = 2
         item2.itemApi = "itemApi2"
-        item2.idImage = R.drawable.ic_launcher_foreground
+        item2.idImage = R.drawable.img
 
         val item3 = Item()
         item3.itemApiId = 3
         item3.itemApi = "itemApi3"
-        item3.idImage = R.drawable.ic_launcher_foreground
+        item3.idImage = R.drawable.img
 
         val item4 = Item()
         item4.itemApiId = 4
         item4.itemApi = "itemApi4"
-        item4.idImage = R.drawable.ic_launcher_foreground
+        item4.idImage = R.drawable.img
 
         val item5 = Item()
         item5.itemApiId = 5
         item5.itemApi = "itemApi5"
-        item5.idImage = R.drawable.ic_launcher_foreground
-
-        val item6 = Item()
-        item6.itemApiId = 6
-        item6.itemApi = "itemApi6"
-        item6.idImage = R.drawable.ic_launcher_foreground
+        item5.idImage = R.drawable.img
 
         itemCategory1.mItem!!.add(item1)
         itemCategory1.mItem!!.add(item2)
